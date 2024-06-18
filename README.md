@@ -1,7 +1,7 @@
 # CVS starter code
 
-Caution: TODO: while splitting the train and validation set, need to make sure train and val do not share instances from common video (not implemented yet)
-
+_**Caution: TODO: while splitting the train and validation set, need to make sure train and val do not share instances from common video (not implemented yet)
+**_
 This starter code only uses the annotated frame as input and not any video context.
 
 - To generate the preprocessed pkl file `single_images.pkl`, run `preprocess.ipynb` after changing the  `train_root` path
