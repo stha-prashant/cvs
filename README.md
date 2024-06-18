@@ -1,6 +1,8 @@
 # CVS starter code
-- To generate the preprocessed pkl file, run `preprocess.ipynb` after chaing the  `train_root` path
-- In main.py put your own neptune api keys and checkpoint paths
+This starter code only uses the annotated frame as input and not any video context.
+
+- To generate the preprocessed pkl file `single_images.pkl`, run `preprocess.ipynb` after chaing the  `train_root` path
+- To train, run `main.py` after you update the neptune api keys, project and checkpoint paths
 ```
 run = neptune.init_run(
     project="your_project_name",
