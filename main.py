@@ -74,6 +74,6 @@ for epoch in tqdm(range(epochs)):
                     'optimizer': optimizer.state_dict(),
                 }, os.path.join(save_path, 'model.pkl'))
 
-    if epoch+1 % 10 == 0:
+    if (epoch+1) % 10 == 0:
         run["checkpoint"].upload(os.path.join(save_path, 'model.pkl'))
 run.stop()
