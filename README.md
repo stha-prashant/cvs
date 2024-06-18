@@ -1,4 +1,6 @@
 # CVS starter code
+This starter code only uses the annotated frame as input and not any video context.
+
 - To generate the preprocessed pkl file, run train.ipynb after chaing the  `train_root` path
 - In main.py put your own neptune api keys and checkpoint paths
 ```
