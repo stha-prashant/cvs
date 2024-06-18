@@ -1,5 +1,5 @@
 # CVS starter code
-- To generate the preprocessed pkl file, run train.ipynb after chaing the  `train_root` path
+- To generate the preprocessed pkl file, run `preprocess.ipynb` after chaing the  `train_root` path
 - In main.py put your own neptune api keys and checkpoint paths
 ```
 run = neptune.init_run(
