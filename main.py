@@ -12,10 +12,10 @@ import os
 from tqdm import tqdm
 
 run = neptune.init_run(
-    project="fednl/cvs",
-    api_token="eyJhcGlfYWRkcmVzcyI6Imh0dHBzOi8vYXBwLm5lcHR1bmUuYWkiLCJhcGlfdXJsIjoiaHR0cHM6Ly9hcHAubmVwdHVuZS5haSIsImFwaV9rZXkiOiI1NDA5OTRhYi0zYjkzLTQ4NTEtOTAwYS1hNzZhYjQ2ZjBlN2UifQ==",
+    project="your_project_name",
+    api_token="your_api_token",
 )  # your credentials
-save_path = '/raid/binod/prashant/cvs_checkpoints'
+save_path = 'your_save_path'
 os.makedirs(save_path, exist_ok=True)
 
 ###################### Dataset AND Dataloaders ###################################
